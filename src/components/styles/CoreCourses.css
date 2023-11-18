@@ -1,0 +1,55 @@
+.card {
+  margin-top: 50px;
+  margin-left: 85px;
+  margin-bottom: 20px;
+  width: 280px;
+  border: 1px solid #ccc;
+  padding: 19px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+  display: inline-block;
+  box-shadow: 0 6px 20px rgba(1, 6, 16, 0.17);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(4, 88, 245, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card h2 {
+  font-size: 20px;
+}
+
+button.read-more-button {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+
+  &:hover {
+    transition: 0.5s;
+    background-color: rgb(237, 181, 27);
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+
+  button.read-more-button {
+    margin-top: 20px;
+  }
+}

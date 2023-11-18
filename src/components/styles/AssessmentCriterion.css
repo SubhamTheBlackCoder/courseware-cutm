@@ -1,0 +1,57 @@
+.main-heading {
+  font-size: 24px;
+  margin-right: 80%;
+}
+
+form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: rgb(42, 42, 233);
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.campus-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.campus-card:hover {
+  transform: scale(1.02);
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(4, 88, 245, 0.286);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 18px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-right: 0;
+  }
+}

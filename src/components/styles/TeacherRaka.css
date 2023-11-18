@@ -1,0 +1,90 @@
+.backgroundStyle {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+}
+.containerStyle {
+  margin-bottom: 20px;
+  max-width: 900px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.leftSectionStyle {
+  text-align: center;
+}
+
+.logoContainerStyle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #fff;
+  margin: 0 auto 20px;
+}
+
+.logoStyle {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.buttonStyle {
+  padding: 12px 30px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.rightSectionStyle {
+  text-align: left;
+}
+.adminButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.adminButton:hover {
+  text-decoration: none;
+}
+
+.topRight {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .containerStyle {
+    margin-top: 10px;
+    max-width: 80%;
+    padding: 20px;
+  }
+
+  .logoContainerStyle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .buttonStyle {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+
+  .rightSectionStyle {
+    text-align: center;
+  }
+}
+@media (max-width: 458px) {
+  .containerStyle {
+    margin-top: 1px;
+    padding: 15px;
+  }
+}

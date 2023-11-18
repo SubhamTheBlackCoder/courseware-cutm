@@ -1,0 +1,9 @@
+.main__container {
+  background-color: rgb(15, 15, 88);
+  height: 18vh;
+}
+.main__title {
+  padding-top: 8vh;
+  text-align: center;
+  color: azure;
+}
